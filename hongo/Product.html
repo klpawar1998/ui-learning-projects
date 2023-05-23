@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <title>Hongo - Product Page</title>
+    <link rel="stylesheet" href="Hongo.css">
+</head>
+
+<body>
+
+    <div class="hero-container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid py-1">
+                <a class="navbar-brand d-flex ps-5 pe-5" href="#">
+                    <img src="../Project/Images/logo@2x.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active pe-5" aria-current="page" href="Home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-5" href="Product.html">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-5" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-5" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-5" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pe-5">
+                    <i class="bi bi-search pe-2"></i>
+                    <i class="bi bi-person pe-2"></i>
+                    <i class="bi bi-heart pe-2"></i>
+                    <button type="button" class="btn m-0 p-0 pb-2 position-relative">
+                        <i class="bi bi-cart2 "></i>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black mt-1">
+                            0
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+
+        <!-- product -->
+        <div class="row m-0 product">
+            <div class="col-lg-7 d-flex left">
+                <div class="col-3 small ">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active pt-0" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">
+                            <img src="../Project/Images/fashion-product-style-04.jpg.webp" alt="">
+                        </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">
+                            <img src="../Project/Images/fashion-product-style-04-a.jpg.webp" alt="">
+                        </button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">
+                            <img src="../Project/Images/fashion-product-style-04-b.jpg.webp" alt="">
+                        </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false"><img src="../Project/Images/fashion-product-style-04-c.jpg.webp"
+                                alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-9 big">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <img src="../Project/Images/fashion-product-style-04.jpg" class="d-block w-100 dis" alt="...">
+                            <div class="discount1 d-flex justify-content-center align-items-center">SALE!</div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <img src="../Project/Images/fashion-product-style-04-a.jpg" class="d-block w-100" alt="...">
+                            <div class="discount1 d-flex justify-content-center align-items-center">SALE!</div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <img src="../Project/Images/fashion-product-style-04-b.jpg" class="d-block w-100" alt="...">
+                            <div class="discount1 d-flex justify-content-center align-items-center">SALE!</div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <img src="../Project/Images/fashion-product-style-04-c.jpg" class="d-block w-100" alt="...">
+                            <div class="discount1 d-flex justify-content-center align-items-center">SALE!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 right">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="brd1">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a>HOME</a></li>
+                        <li class="breadcrumb-item"><a>PRODUCT STYLE</a></li>
+                        <li class="breadcrumb-item">CLASSIC PRODUCT</li>
+                    </ol>
+                </nav>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h4 class="m-0">Classic Product</h4>
+                        <span>$30.00 - $150.00</span>
+                    </div>
+                    <div class="price">
+                        <div class="d-flex justify-content-end align-items-center stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span>SKU: <a>492304</a></span>
+                    </div>
+                </div>
+                <div class="para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the
+                    standard dummy text. Lorem Ipsum is simply dummy text of the printing.</div>
+                <div class="color">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <span>COLOR</span>
+                        <ul class="m-0 d-flex justify-content-center align-items-center">
+                            <li class="box1 me-2"></li>
+                            <li class="box2 me-2"></li>
+                            <li class="box3 me-2"></li>
+                            <li class="box4 me-2"></li>
+                            <li class="box5 me-2"></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-center mt-4 mb-4">
+                        <span>SIZE</span>
+                        <ul class="m-0 d-flex justify-content-center align-items-center ms-3">
+                            <li class="box me-2 d-flex justify-content-center align-items-center"><a>S</a></li>
+                            <li class="box me-2 d-flex justify-content-center align-items-center"><a>M</a></li>
+                            <li class="box me-2 d-flex justify-content-center align-items-center"><a>L</a></li>
+                        </ul>
+                        <a href="" class="size ms-2">SIZE GUIDE</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="d-flex justify-content-center align-items-center box6">1</div>
+                    <div>
+                        <div class="d-flex justify-content-center align-items-center box7">+</div>
+                        <div class="d-flex justify-content-center align-items-center box8">-</div>
+                    </div>
+                    <div class="box9 d-flex justify-content-center align-items-center ms-3">ADD TO CART</div>
+                </div>
+                <div class="d-flex add">
+                    <div><i class="bi bi-heart me-2"></i>ADD TO WISHLIST</div>
+                    <div><i class="bi bi-shuffle ms-3 me-2"></i>ADD TO COMPARE</div>
+                </div>
+                <div class="last">
+                    <div class="cat">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>CATEGORY: <a>PRODUCT STYLE</a></span>
+                            <div class="icon4">
+                                <i class="bi bi-facebook me-2"></i>
+                                <i class="bi bi-twitter me-2"></i>
+                                <i class="bi bi-linkedin me-2"></i>
+                                <i class="bi bi-pinterest"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cat mt-2 mb-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>TAGS: <a>JACKETS, SHIRTS</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+
+        <!-- description -->
+        <div class="description">
+            <div class="row m-0 p-0 mb-2">
+                <div class="card">
+                    <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"><a>DESCRIPTION</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false"><a>ADDITIONAL INFORMATION</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false"><a>REVIEWS(1)</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row m-0 pt-5">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row px-5">
+                            <div class="col-lg-6 para3">
+                                <div class="card">
+                                    <p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                        Lorem
+                                        Ipsum has been
+                                        the
+                                        ‘s standard dummy text. Lorem Ipsum has been the industry’s standard dummy
+                                        text
+                                        ever since.
+                                        Lorem
+                                        Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing
+                                        and
+                                        typesetting
+                                        industry. Lorem Ipsum has been the ‘s standard dummy text. Lorem Ipsum has
+                                        been
+                                        the industry’s
+                                        standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
+                                    <div class="mb-3 dash">
+                                        <p>Made from soft yet durable 100% organic cotton twill</p>
+                                    </div>
+                                    <div class=" mb-3 dash">
+                                        <p>Front and back yoke seams allow a full range of shoulder motion</p>
+                                    </div>
+                                    <div class="mb-3 dash">
+                                        <p>Comfortable nylon-bound elastic cuffs seal in warmth</p>
+                                    </div>
+                                    <div class="mb-3 dash">
+                                        <p>Hem adjusts by pulling cord in handwarmer pockets and releases</p>
+                                    </div>
+                                    <div class="mb-3 dash">
+                                        <p>Interior storm flap and zipper garage at chin for comfort</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Increases coverage for harness and hipbelt compatibility</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img src="../Project/Images/classic-product-details-v3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row m-0 px-5">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Color</th>
+                                        <td>Black, Blue, Brown, Green, Red</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Size</th>
+                                        <td>S, M, L</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Style/Type</th>
+                                        <td>Sports, Formal</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Lining</th>
+                                        <td>2.2-oz 100% polyester taffeta with a DWR finish</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Material</th>
+                                        <td>Lather, Cotton, Silk</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row m-0 px-5">
+                            <div class="row m-0">
+                                <div class="p-0 d-flex justify-content-between align-items-center brd pb-3">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <div class="circle2 me-4"></div>
+                                        <div class="text15">
+                                            <span>Alexis Ran <a>– 2 April 2019</a></span>
+                                            <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end align-items-center stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row brd2">
+                                <div class="row py-3">
+                                    <h6>ADD A REVIEW</h6>
+                                    <p class="m-0">Your email address will not be published. Required fields are marked
+                                        *</p>
+                                </div>
+                                <div class="row py-1">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Name*</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Email*</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                </div>
+                                <div class="row py-3">
+                                    <span>Your rating</span>
+                                    <div class="d-flex justify-content-start align-items-center stars">
+                                        <i class="bi bi-star pe-1"></i>
+                                        <i class="bi bi-star pe-1"></i>
+                                        <i class="bi bi-star pe-1"></i>
+                                        <i class="bi bi-star pe-1"></i>
+                                        <i class="bi bi-star pe-1"></i>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-md-12">
+                                        <span>Your review*</span>
+                                        <textarea class="form-control my-2" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row py-3">
+                                    <div class="">
+                                        <div class="col-md-2 ">
+                                            <button class="button14 my-2" type="button" class="btn">SUBMIT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- description -->
+
+        <!-- four boxes -->
+        <div class="card great">
+            <div class="text-center mb-4">
+                <span class="me-3 span1">YOU MAY ALSO LIKE</span>
+                <span class="ms-3 span2">RELATED PRODUCT</span>
+            </div>
+            <!-- first row -->
+            <div class="row d-flex justify-content-center pics m-0 px-5">
+                <div class="col-lg-3 col-md-3 col-sm-6 p-2 mt-3">
+                    <div class="card">
+                        <div class="model">
+                            <img src="../Project/Images/fashion-product-style-03-360x459.jpg.webp" alt="">
+                            <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                            <div class="overlay">
+                                <img class="position-relative"
+                                    src="../Project/Images/fashion-product-style-03-a-360x459.jpg.webp" alt="">
+                                <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                                <div class="icons d-flex position-absolute">
+                                    <div class="icon1">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-cart2"></i></span>
+                                        <div class="overlay1">
+                                            <span class="d-flex justify-content-center align-items-center">ADD TO
+                                                CART</span>
+                                        </div>
+                                    </div>
+                                    <div class="icon2">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-eye"></i></span>
+                                        <div class="overlay2">
+                                            <span type="button" class="d-flex justify-content-center align-items-center"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">QUICK
+                                                VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon3 position-absolute">
+                                    <div class="circle d-flex justify-content-center align-items-center"><i
+                                            class="bi bi-heart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-3 text3">
+                            <h6 class="m-0">Carousel Product</h6>
+                            <span class="span">$25.00-$60.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="text-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex">
+                                <div class="col-lg-6 big">
+                                    <div id="carouselExampleIndicators" class="carousel slide big1"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active img1" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 right py-5">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="">
+                                            <h4 class="m-0 fs-6">Textured Sweater</h4>
+                                            <span>$50.00</span>
+                                        </div>
+                                        <div class="price">
+                                            <span>SKU: <a>492656</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="para2">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum has been the
+                                        standard dummy text. Lorem Ipsum is simply dummy
+                                        text of the printing.</div>
+                                    <div class="d-flex">
+                                        <div class="d-flex justify-content-center align-items-center box6">
+                                            1</div>
+                                        <div>
+                                            <div class="d-flex justify-content-center align-items-center box7">
+                                                +</div>
+                                            <div class="d-flex justify-content-center align-items-center box8">
+                                                -</div>
+                                        </div>
+                                        <div class="box9 d-flex justify-content-center align-items-center ms-3">
+                                            ADD TO CART</div>
+                                    </div>
+                                    <div class="d-flex add">
+                                        <div><i class="bi bi-heart me-2"></i>ADD TO WISHLIST
+                                        </div>
+                                        <div><i class="bi bi-shuffle ms-3 me-2"></i>ADD TO
+                                            COMPARE</div>
+                                    </div>
+                                    <div class="last">
+                                        <div class="cat">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>CATEGORY: <a>JACKET COLLECTION</a>, <a>MODERN DESIGN</a>,
+                                                    <a>RECENT PRODUCTS</a>,
+                                                    <a>RUNWAY BULB</a>, <a>STUDY SET</a>, <a>SUMMER COLLECTION</a>,
+                                                    <a>TABLE DESIGN</a>, <a>WINTER
+                                                        WESTERN</a>, <a>WOMEN ACCESSORIES</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="cat mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>TAGS: <a>JACKETS, SHIRTS</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="icon4 mt-2">
+                                            <i class="bi bi-facebook me-2"></i>
+                                            <i class="bi bi-twitter me-2"></i>
+                                            <i class="bi bi-linkedin me-2"></i>
+                                            <i class="bi bi-pinterest"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="col-lg-3 col-md-3 col-sm-6 p-2 mt-3">
+                    <div class="card">
+                        <div class="model">
+                            <img src="../Project/Images/fashion-extended-product-01-360x459.jpg.webp" alt="">
+                            <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                            <div class="overlay">
+                                <img class="position-relative"
+                                    src="../Project/Images/fashion-extended-product-01-a-360x459.jpg.webp" alt="">
+                                <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                                <div class="icons d-flex position-absolute">
+                                    <div class="icon1">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-cart2"></i></span>
+                                        <div class="overlay1">
+                                            <span class="d-flex justify-content-center align-items-center">ADD TO
+                                                CART</span>
+                                        </div>
+                                    </div>
+                                    <div class="icon2">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-eye"></i></span>
+                                        <div class="overlay2">
+                                            <span type="button" class="d-flex justify-content-center align-items-center"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">QUICK
+                                                VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon3 position-absolute">
+                                    <div class="circle d-flex justify-content-center align-items-center"><i
+                                            class="bi bi-heart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-3 text3">
+                            <h6 class="m-0">Extended Product</h6>
+                            <span class="span">$15.00-$40.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="text-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex">
+                                <div class="col-lg-6 big">
+                                    <div id="carouselExampleIndicators" class="carousel slide big1"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active img1" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 right py-5">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="">
+                                            <h4 class="m-0 fs-6">Textured Sweater</h4>
+                                            <span>$50.00</span>
+                                        </div>
+                                        <div class="price">
+                                            <span>SKU: <a>492656</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="para2">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum has been the
+                                        standard dummy text. Lorem Ipsum is simply dummy
+                                        text of the printing.</div>
+                                    <div class="d-flex">
+                                        <div class="d-flex justify-content-center align-items-center box6">
+                                            1</div>
+                                        <div>
+                                            <div class="d-flex justify-content-center align-items-center box7">
+                                                +</div>
+                                            <div class="d-flex justify-content-center align-items-center box8">
+                                                -</div>
+                                        </div>
+                                        <div class="box9 d-flex justify-content-center align-items-center ms-3">
+                                            ADD TO CART</div>
+                                    </div>
+                                    <div class="d-flex add">
+                                        <div><i class="bi bi-heart me-2"></i>ADD TO WISHLIST
+                                        </div>
+                                        <div><i class="bi bi-shuffle ms-3 me-2"></i>ADD TO
+                                            COMPARE</div>
+                                    </div>
+                                    <div class="last">
+                                        <div class="cat">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>CATEGORY: <a>JACKET COLLECTION</a>, <a>MODERN DESIGN</a>,
+                                                    <a>RECENT PRODUCTS</a>,
+                                                    <a>RUNWAY BULB</a>, <a>STUDY SET</a>, <a>SUMMER COLLECTION</a>,
+                                                    <a>TABLE DESIGN</a>, <a>WINTER
+                                                        WESTERN</a>, <a>WOMEN ACCESSORIES</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="cat mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>TAGS: <a>JACKETS, SHIRTS</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="icon4 mt-2">
+                                            <i class="bi bi-facebook me-2"></i>
+                                            <i class="bi bi-twitter me-2"></i>
+                                            <i class="bi bi-linkedin me-2"></i>
+                                            <i class="bi bi-pinterest"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="col-lg-3 col-md-3 col-sm-6 p-2 mt-3">
+                    <div class="card">
+                        <div class="model ">
+                            <img src="../Project/Images/fashion-product-style-06-360x459.jpg.webp" alt="">
+                            <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                            <div class="overlay">
+                                <img class="position-relative"
+                                    src="../Project/Images/fashion-product-style-06-a-360x459.jpg.webp" alt="">
+                                <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                                <div class="icons d-flex position-absolute">
+                                    <div class="icon1">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-stack"></i></span>
+                                        <div class="overlay1">
+                                            <span class="d-flex justify-content-center align-items-center">Select
+                                                Options</span>
+                                        </div>
+                                    </div>
+                                    <div class="icon2">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-eye"></i></span>
+                                        <div class="overlay2">
+                                            <span type="button" class="d-flex justify-content-center align-items-center"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">QUICK
+                                                VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon3 position-absolute">
+                                    <div class="circle d-flex justify-content-center align-items-center"><i
+                                            class="bi bi-heart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-3 text3 ">
+                            <h6 class="m-0">Left Content Product</h6>
+                            <span class="span">$40.00 - $150.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="text-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex">
+                                <div class="col-lg-6 big">
+                                    <div id="carouselExampleIndicators" class="carousel slide big1"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active img1" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 right py-5">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="">
+                                            <h4 class="m-0 fs-6">Textured Sweater</h4>
+                                            <span>$50.00</span>
+                                        </div>
+                                        <div class="price">
+                                            <span>SKU: <a>492656</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="para2">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum has been the
+                                        standard dummy text. Lorem Ipsum is simply dummy
+                                        text of the printing.</div>
+                                    <div class="d-flex">
+                                        <div class="d-flex justify-content-center align-items-center box6">
+                                            1</div>
+                                        <div>
+                                            <div class="d-flex justify-content-center align-items-center box7">
+                                                +</div>
+                                            <div class="d-flex justify-content-center align-items-center box8">
+                                                -</div>
+                                        </div>
+                                        <div class="box9 d-flex justify-content-center align-items-center ms-3">
+                                            ADD TO CART</div>
+                                    </div>
+                                    <div class="d-flex add">
+                                        <div><i class="bi bi-heart me-2"></i>ADD TO WISHLIST
+                                        </div>
+                                        <div><i class="bi bi-shuffle ms-3 me-2"></i>ADD TO
+                                            COMPARE</div>
+                                    </div>
+                                    <div class="last">
+                                        <div class="cat">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>CATEGORY: <a>JACKET COLLECTION</a>, <a>MODERN DESIGN</a>,
+                                                    <a>RECENT PRODUCTS</a>,
+                                                    <a>RUNWAY BULB</a>, <a>STUDY SET</a>, <a>SUMMER COLLECTION</a>,
+                                                    <a>TABLE DESIGN</a>, <a>WINTER
+                                                        WESTERN</a>, <a>WOMEN ACCESSORIES</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="cat mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>TAGS: <a>JACKETS, SHIRTS</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="icon4 mt-2">
+                                            <i class="bi bi-facebook me-2"></i>
+                                            <i class="bi bi-twitter me-2"></i>
+                                            <i class="bi bi-linkedin me-2"></i>
+                                            <i class="bi bi-pinterest"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="col-lg-3 col-md-3 col-sm-6 p-2 mt-3">
+                    <div class="card">
+                        <div class="model">
+                            <img src="../Project/Images/fashion-product-style-02-360x459.jpg.webp" alt="">
+                            <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                            <div class="overlay">
+                                <img class="position-relative"
+                                    src="../Project/Images/fashion-product-style-02-a-360x459.jpg.webp" alt="">
+                                <div class="discount d-flex justify-content-center align-items-center">SALE</div>
+                                <div class="icons d-flex position-absolute">
+                                    <div class="icon1">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-cart2"></i></span>
+                                        <div class="overlay1">
+                                            <span class="d-flex justify-content-center align-items-center">ADD TO
+                                                CART</span>
+                                        </div>
+                                    </div>
+                                    <div class="icon2">
+                                        <span class="d-flex justify-content-center align-items-center"><i
+                                                class="bi bi-eye"></i></span>
+                                        <div class="overlay2">
+                                            <span type="button" class="d-flex justify-content-center align-items-center"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">QUICK
+                                                VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon3 position-absolute">
+                                    <div class="circle d-flex justify-content-center align-items-center"><i
+                                            class="bi bi-heart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-3 text3 ">
+                            <h6 class="m-0">Right Content Product</h6>
+                            <span class="span">$40.00-$150.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="text-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex">
+                                <div class="col-lg-6 big">
+                                    <div id="carouselExampleIndicators" class="carousel slide big1"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active img1" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="10000000">
+                                                <img src="../Project/Images/fashion-recent-products-01-a-1-1-360x459.jpg.webp"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 right py-5">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="">
+                                            <h4 class="m-0 fs-6">Textured Sweater</h4>
+                                            <span>$50.00</span>
+                                        </div>
+                                        <div class="price">
+                                            <span>SKU: <a>492656</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="para2">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum has been the
+                                        standard dummy text. Lorem Ipsum is simply dummy
+                                        text of the printing.</div>
+                                    <div class="d-flex">
+                                        <div class="d-flex justify-content-center align-items-center box6">
+                                            1</div>
+                                        <div>
+                                            <div class="d-flex justify-content-center align-items-center box7">
+                                                +</div>
+                                            <div class="d-flex justify-content-center align-items-center box8">
+                                                -</div>
+                                        </div>
+                                        <div class="box9 d-flex justify-content-center align-items-center ms-3">
+                                            ADD TO CART</div>
+                                    </div>
+                                    <div class="d-flex add">
+                                        <div><i class="bi bi-heart me-2"></i>ADD TO WISHLIST
+                                        </div>
+                                        <div><i class="bi bi-shuffle ms-3 me-2"></i>ADD TO
+                                            COMPARE</div>
+                                    </div>
+                                    <div class="last">
+                                        <div class="cat">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>CATEGORY: <a>JACKET COLLECTION</a>, <a>MODERN DESIGN</a>,
+                                                    <a>RECENT PRODUCTS</a>,
+                                                    <a>RUNWAY BULB</a>, <a>STUDY SET</a>, <a>SUMMER COLLECTION</a>,
+                                                    <a>TABLE DESIGN</a>, <a>WINTER
+                                                        WESTERN</a>, <a>WOMEN ACCESSORIES</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="cat mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span>TAGS: <a>JACKETS, SHIRTS</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="icon4 mt-2">
+                                            <i class="bi bi-facebook me-2"></i>
+                                            <i class="bi bi-twitter me-2"></i>
+                                            <i class="bi bi-linkedin me-2"></i>
+                                            <i class="bi bi-pinterest"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+            </div>
+        </div>
+
+        <!-- four boxes -->
+
+
+        <!-- footer -->
+        <div class="hero-container">
+            <div class="row m-0">
+                <div class="card foot p-0">
+                    <div class="row m-0 py-4 first">
+                        <div class="col-lg-6 d-flex justify-content-start align-items-center logo">
+                            <span class="me-3">LAST CHANCE TO WIN OUR DISCOUNT!</span>
+                            <form action="" class="d-flex justify-content-center align-items-center position-relative">
+                                <input type="text" placeholder="Enter your email..." class="input">
+                                <button type="submit"
+                                    class="btn btn-default alt-font d-flex justify-content-center align-items-center button2 "><span>SUBSCRIBE</span><i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-end align-items-center logo">
+                            <span class="me-3">ON SOCIAL NETWORKS</span>
+                            <i class="bi bi-facebook me-3"></i>
+                            <i class="bi bi-twitter me-3"></i>
+                            <i class="bi bi-linkedin me-3"></i>
+                            <i class="bi bi-instagram me-3"></i>
+                            <i class="bi bi-pinterest"></i>
+                        </div>
+                    </div>
+                    <div class="row m-0 py-5 first">
+                        <div class="col-lg-3 div">
+                            <img class="img" src="../Project/Images/footer-logo@2x.png" alt="">
+                            <p class="pt-3 pe-4 para">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry lorem Ipsum is simply dummy text of industry lorem ipsum is
+                                simply dummy typesetting text.</p>
+                        </div>
+                        <div class="col-lg-2 div">
+                            <h4 class="mt-2">CATAGORIES</h4>
+                            <p class="m-0 mt-3">Women collection</p>
+                            <p class="m-0 mt-1">Men collection</p>
+                            <p class="m-0 mt-1">Child collection</p>
+                            <p class="m-0 mt-1">Men collection</p>
+                            <p class="m-0 mt-1">Men collection</p>
+                        </div>
+                        <div class="col-lg-2 div">
+                            <h4 class="mt-2">CUSTOMER</h4>
+                            <p class="m-0 mt-3">Help and support</p>
+                            <p class="m-0 mt-1">Shipping and delivery</p>
+                            <p class="m-0 mt-1">Payment method</p>
+                            <p class="m-0 mt-1">Terms and conditions</p>
+                            <p class="m-0 mt-1">Privacy policy</p>
+                        </div>
+                        <div class="col-lg-2 div">
+                            <h4 class="mt-2">COMPANY</h4>
+                            <p class="m-0 mt-3">About company</p>
+                            <p class="m-0 mt-1">Our services</p>
+                            <p class="m-0 mt-1">Get the voucher</p>
+                            <p class="m-0 mt-1">Store locator</p>
+                            <p class="m-0 mt-1">Contact us</p>
+                        </div>
+                        <div class="col-lg-3 div">
+                            <h4 class="mt-2">FOLLOW US ON INSTAGRAM</h4>
+                            <div class="footimg">
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-01.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-02.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-03.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-04.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-05.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-06.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-07.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                                <div class="footbox">
+                                    <img src="../Project/Images/infa-08.jpg" alt="">
+                                    <div class="lay d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 py-4 first1">
+                        <div class="col-md-6 d-flex justify-content-start align-items-center">
+                            <p class="para m-0">© 2023 HONGO is Proudly Powered by ThemeZaa </p>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end align-items-center">
+                            <img src="../Project/Images/footer-payment-icon.png.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+
+
+</body>
+
+</html>

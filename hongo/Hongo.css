@@ -1,0 +1,1643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.card {
+    border-radius: 0 !important;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.183);
+    background-color: white !important;
+}
+
+.navbar-brand img{
+   width: 45%;
+}
+
+.navbar-nav a{
+    font-weight: 500;
+}
+
+.offcanvas.show {
+    height: 60vh !important;
+}
+
+.offcanvas-body a{
+    font-size: 13px;
+    color: black !important;
+}
+
+.offcanvas-body a:hover{
+    text-decoration: underline;
+}
+/* navbar */
+
+/* carousel */
+.carousel-item {
+    height: 520px !important;
+    width: 100% !important;
+    margin-top: 60px !important;
+} 
+
+.carousel-item .card{
+    position: relative;
+}
+
+.bgm1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Project/Images/home-page-fashion-slider-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgm2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Project/Images/home-page-fashion-slider-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgm3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Project/Images/home-page-fashion-slider-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.text1 span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.text1 h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text1 p {
+    color: #808080;
+    margin: 20px 0;
+}
+
+.text1 button {
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.text1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-prev {
+    color: black !important;
+}
+/* carousel */
+
+/* banner */
+.card {
+    border: none !important;
+}
+
+.abc {
+    position: relative;
+}
+
+.abc .text2 {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    color: white;
+}
+
+.text2 a {
+    font-size: 12px;
+    color: white;
+}
+
+.def {
+    position: relative;
+}
+
+.def .text2 {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: white;
+}
+
+.ghi {
+    position: relative;
+}
+
+.ghi .text2 {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    color: white;
+}
+/* banner */
+
+/* great collection */
+.great {
+    margin: 80px 0;
+}
+
+.great p {
+    font-size: 15px;
+    color: #808080;
+}
+
+
+.pics .card {
+    position: relative;
+}
+
+.discount {
+    font-size: 12px;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(13, 139, 17);
+    color: white;
+}
+
+.time {
+    width: 80%;
+    position: absolute;
+    bottom: 80px;
+    margin: 0 10%;
+    background-color: white;
+    color: black;
+}
+
+.time h1 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.time span {
+    font-size: 10px;
+}
+
+.pics .card .model img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.model:hover .overlay {
+    opacity: 1;
+}
+
+.pics .icons {
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+
+.icons .icon1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.icon1 span {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay1 {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    font-size: 10px;
+}
+
+.icon1:hover .overlay1 {
+    height: 100%;
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.icons .icon2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.icon2 span {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay2 {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    font-size: 10px;
+}
+
+.icon2:hover .overlay2 {
+    height: 100%;
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.icon3 {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.model img:hover .icon3{
+    transform: translateX(-30px)
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+.text3{
+    font-size: 14px;
+}
+
+.text3 h6{
+    transition: all 0.4s;
+}
+
+.text3 h6:hover {
+    color: orange;
+}
+
+.span {
+    color: #808080;
+}
+
+/* great collection */
+
+/* two boxes */
+.boxes {
+    margin: 80px 0 20px 0;
+}
+
+.text4 {
+    position: relative;
+}
+
+.innertext1 {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    color: white;
+}
+
+.innertext1 h1 {
+    font-size: 70px;
+}
+
+.innertext2 {
+    font-size: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.innertext3 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0 10%;
+}
+
+.innertext4 {
+    font-size: 14px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 3% 18%;
+}
+
+.innertext3 .sign {
+    color: white;
+    font-size: 30px;
+}
+
+.input-group {
+    margin: 3% 8%;
+}
+
+.control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .70);
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    padding: 10px 90px 12px 0;
+    height: auto;
+    background-color: transparent;
+}
+
+.input-group-btn {
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.button {
+    border: 0;
+    padding: 6px 0;
+    position: absolute;
+    right: 70px;
+    top: 5px;
+    z-index: 9 !important;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+}
+
+/* two boxes */
+
+/* four boxes */
+.card .image {
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+    border-radius: none;
+    position: relative;
+}
+
+.image img {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.image:hover img {
+    transform: scale(1.15);
+}
+
+.image .imagelay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.image:hover .imagelay {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.153);
+}
+
+.latest {
+    margin: 80px 0;
+}
+
+.text5 {
+    width: 80%;
+    position: absolute;
+    bottom: 7%;
+    background-color: white;
+    margin: 0 10%;
+    transition: all 0.3s;
+}
+
+.image:hover .text5 {
+    transform: translateY(-8px);
+}
+
+.text6 {
+    padding: 10px 0;
+    background-color: black;
+}
+
+.text6 span {
+    font-size: 12px;
+    color: #808080;
+}
+
+.text6 p {
+    color: white;
+}
+
+.text7 {
+    font-size: 12px;
+    padding: 10px 0;
+    color: #808080;
+}
+
+/* four boxes */
+
+/* single box */
+.single {
+    height: 569px;
+    width: 100%;
+    background-image: url(../Project/Images/home-page-fashion-deal-day-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text8 {
+    position: absolute;
+    margin: 0 20%;
+}
+
+.text8 span {
+    font-size: 12px;
+    color: #808080;
+}
+
+.timing {
+    margin: 50px 0;
+}
+
+.text9 h1 {
+    font-size: 60px;
+}
+
+.text10 {
+    color: orange;
+}
+
+.innertext5 {
+    font-size: 10px;
+    height: 35px;
+    border: 2px solid;
+    width: 140px;
+    background-color: black;
+    color: white;
+    margin: 0 36%;
+}
+
+.innertext5:hover{
+    background-color:white;
+    color: black;
+}
+
+/* single box */
+
+/* addonss */
+.add {
+    margin: 40px 0;
+}
+
+.one {
+    font-size: 12px;
+    color: #808080;
+}
+
+.one i {
+    color: red;
+    padding-right: 5px;
+    font-size: 15px;
+}
+/* addonss */
+
+/* footer */
+
+.foot {
+    color: #a4a3a3;
+    background-color:#1E1E1C;
+}
+
+.first {
+    border-bottom: 1px solid #d3d1d136;
+    padding: 0 40px;
+}
+
+
+.first input{
+    background-color:#303030;
+    border: none;
+    padding: 5px 0;
+    padding-right: 100px;
+}
+
+.logo span {
+    font-size: 12px;
+}
+
+@media screen and (max-width:1100px) {
+    .logo span {
+        display: none;
+    }
+
+    .first .div{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.logo i:hover{
+    color: rgb(106, 216, 244);
+}
+
+::placeholder {
+    padding: 0 0 10px 10px;
+    font-size: 12px;
+}
+
+
+.button2 {
+    position: absolute;
+    right: 0px;
+    color: #808080;
+}
+
+.button2 span{
+    font-size: 10px;
+}
+
+.img{
+    width: 30%;
+}
+
+.first .para{
+    font-size: 12px;
+}
+
+.first .div h4{
+    font-size: 12px;
+}
+
+.first .div p{
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+.first .div p:hover{
+    color: white;
+}
+
+.footimg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footbox {
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.footbox img {
+    height: 100%;
+    width: 100%;
+}
+
+.lay {
+    height: 100%;
+    width: 100%;
+    transition: all 0.1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.lay i{
+    color: white;
+}
+
+.footbox:hover .lay {
+    background-color: #1e1e1c97;
+    opacity: 100%;
+}
+
+.first1 {
+    background-color: black;
+    padding: 0 40px;
+}
+
+.first1 .para{
+    font-size: 12px;
+}
+/* footer */
+
+/* BLOG PAGE STARTS */
+/* TOP */
+.top{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Project/Images/elements-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top .text11{
+    height: 100%;
+    width: 100%;
+    background-color: #232323a2;
+    color: white;
+
+}
+
+.top1{
+    background-color: #f57250;
+    padding: 5px 14px;
+    font-size: 11px;
+}
+/* TOP */
+
+
+/* blog content */
+.content{
+    padding: 40px 20px;
+}
+
+.content .card{
+    overflow: hidden;
+}
+
+.card .blogimg{
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+    transition: all 0.2s;
+    z-index: 1;
+}
+
+.blog:hover .blogimg{
+    filter: grayscale(100%);
+    transform: translateX(25px);
+}
+
+.blogimg1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 66%;
+    right: 0;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    z-index: 2;
+    transition: all 0.2s;
+}
+
+.blog:hover .blogimg1{
+    transform: translateY(-52px);
+    opacity: 1;
+}
+
+.text12{
+    overflow: hidden;
+    z-index: 10;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.photo{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    width: 33%;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.blog .fashion{
+    font-size: 20px;
+    width: 80%;
+    line-height: 23px;
+    color: black;
+}
+
+.blog .fashion:hover{
+    color: #f57250;
+}
+
+.blog span a{
+    color: #898888 !important;
+    font-size: 13px;
+}
+
+.blog a:hover{
+    color: #f57250 !important;
+}
+/* blog content */
+/* BLOG PAGE ENDS */
+
+
+/* new product page */
+/* product */
+.nav {
+    padding:11px;
+    padding-top: 0;
+}
+
+.product{
+    padding: 100px 0;
+}
+
+@media screen and (max-width:1100px) {
+    /* .small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+}
+
+.small .active {
+    background-color: white !important;
+}
+
+.small button img{
+    height: 100%;
+    width: 100%;
+}
+
+.big{
+    position: relative;
+}
+
+.discount1{
+    font-size: 12px;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(70, 177, 74);
+    color: white;
+}
+
+/* product */
+
+/* description */
+.description .nav{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.description button {
+    background-color: white !important;
+}
+
+.description button a{
+    font-size: 12px !important;
+    font-weight: 500;
+    color: black !important;
+}
+
+.brd{
+    border-bottom: 1px solid #cfcece;
+}
+
+.circle2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(../Project/Images/author.jpg.webp);
+    background-size: cover;
+}
+
+.text15 span{
+    font-size: 12px;
+    color: black;
+}
+
+.text15 span a{
+    font-size: 12px;
+    color: #dddbdb;
+}
+
+.description .button14{
+    font-size: 10px;
+    font-weight: 500;
+    border: 2px solid;
+    padding: 8px 15px;
+    background-color: black !important;
+    color: white !important;
+    transition: all 0.4s;
+}
+
+.button14:hover{
+background-color: white !important;
+color: black !important;
+}
+
+.brd2{
+    border-bottom: 1px solid #cfcece;
+}
+/* description */
+/* new product page */
+
+
+
+/* PRODUCT PAGE STARTS */
+
+/* .small{
+    height: 100%;
+    position: relative; 
+}
+
+.small .carousel-indicators{
+    height: 100% !important;
+    width: 100% !important;
+} */
+
+.carousel-indicators{
+    position: absolute !important;
+    top: -10px;
+    right: 0;
+    display: block;
+}
+
+.carousel-indicators .button3{
+    height: 150px;
+    width: 115px;
+    background-image: url(../Project/Images/fashion-product-style-04.jpg.webp) !important;
+    background-size: cover;
+    margin: 0 40px; 
+}
+
+.carousel-indicators .button4{
+    height: 150px;
+    width: 115px;
+    background-image: url(../Project/Images/fashion-product-style-04-a.jpg.webp) !important;
+    background-size: cover;
+    margin: 0 40px; 
+}
+
+.carousel-indicators .button5{
+    height: 150px;
+    width: 115px;
+    background-image: url(../Project/Images/fashion-product-style-04-b.jpg.webp) !important;
+    background-size: cover;
+    margin: 0 40px; 
+}
+
+.carousel-indicators .button6{
+    height: 150px;
+    width: 115px;
+    background-image: url(../Project/Images/fashion-product-style-04-c.jpg.webp) !important;
+    background-size: cover;
+    margin: 0 40px; 
+}
+
+.big .big1{
+    height: 100%;
+    width: 100%;
+}
+
+.big1 .carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    padding: 20px 50px;
+}
+
+.brd1{
+    padding: 40px 0 20px 0;
+    font-size: 10px;
+    color: #808080;
+}
+
+.price span {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.price span a{
+    color: #949393 !important;
+}
+
+.stars{
+    font-size: 12px;
+    color: orange;
+}
+
+.para2{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #dfdede;
+    border-bottom: 1px solid #dfdede;
+    font-size: 14px;
+}
+
+.color{
+    padding: 10px 0;
+}
+
+.color span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.color ul{
+    list-style-type: none;
+}
+
+.box1{
+    height: 20px;
+    width: 35px;
+    background-color: black;
+}
+
+.box2{
+    height: 20px;
+    width: 35px;
+    background-color: #657fa8;
+}
+
+.box3{
+    height: 20px;
+    width: 35px;
+    background-color:#936f5e;
+}
+
+.box4{
+    height: 20px;
+    width: 35px;
+    background-color:#97a27f;
+}
+
+.box5{
+    height: 20px;
+    width: 35px;
+    background-color:#b95b5b;
+}
+
+.box{
+    height: 20px;
+    width: 35px;
+    border: 1px solid black;
+}
+
+.box a{
+    color: #8f8f8f !important;
+    font-size: 12px;
+}
+
+.size{
+    color: black;
+    font-size: 10px ;
+    font-weight: 500;
+}
+
+.box6{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.box7{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+
+.box8{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.box9{
+    height: 40px;
+    width: 140px;
+    background-color: #919191; 
+    color: white;
+}
+
+.add{
+    margin: 20px 0 30px 0;
+    font-size: 10px ;
+    font-weight: 500;
+    color:  #919191;
+}
+
+.last{
+    border-top: 1px solid #dfdede;
+    padding-top: 30px;
+}
+
+.cat span {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.cat span a{
+    color: #949393 !important;
+}
+
+.cat span a:hover{
+    color: #f57250 !important;
+}
+
+.icon4{
+    font-size: 12px;
+}
+
+.icon4 i:hover{
+    color: rgb(106, 216, 244);
+}
+
+.indicators{
+    position: relative;
+}
+
+.indicators .carousel-indicators{
+    position: absolute !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.indicators .button7{
+    height: 40px;
+    width: 80px;
+    /* background-color: black !important; */
+    z-index: 1;
+}
+
+/* .indicators .button7:hover .button7 span{
+    color: black;
+    text-decoration: underline black;
+    z-index: 2;
+} */
+
+.indicators .button8{
+    height: 40px;
+    width: 160px;
+    /* background-color: black !important; */
+    z-index: 1;
+}
+
+.indicators .button9{
+    height: 40px;
+    width: 80px;
+    /* background-color: black !important; */
+    z-index: 1;
+}
+
+.indicators span{
+    font-size: 12px;
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    z-index: 0;
+}
+
+.para3 p{
+    color: #808080;
+    font-size: 13px;
+}
+
+.para3 .dash{
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.span1{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.span2{
+    font-size: 13px;
+    color: #808080; 
+}
+/* PRODUCT PAGE ENDS */
+
+
+/* CONTACT PAGE STARTS */
+/* TOP */
+.top2{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Project/Images/our-brands-img-18.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top2 .text11{
+    height: 100%;
+    width: 100%;
+    background-color: #232323a2;
+    color: white;
+
+}
+
+.top3{
+    background-color: #f57250;
+    padding: 5px 10px;
+    margin: 0 25%;
+    font-size: 11px;
+}
+/* TOP */
+
+
+/* bottom */
+.down{
+    padding: 70px 0;
+}
+
+.map .map1{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.sbackground {
+    background-color: #232323;
+    height: 100%;
+    width: 100%;
+}
+
+.sbackground p{
+    color: #f57250;
+    font-size: 12px;
+    padding-top: 70px;
+}
+
+.sbackground h4{
+    color: white;
+}
+
+.table1{
+    font-family: open sans;
+}
+
+.tablediv .input{
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #808080;
+}
+
+.tablediv textarea{
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #808080;
+}
+
+::placeholder{
+    color: #808080;
+}
+
+.table1 .button10 {
+    font-size: 12px;
+    padding: 8px 18px;
+    border: 2px solid white;
+    margin: 20px 0 40px 0;
+}
+
+.table1 .button10:hover{
+    color: white;
+    background-color: black;
+}
+
+.img5 .image2{
+    height: 100%;
+    width: 100%;
+}
+
+.image2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Project/Images/contact-classic-img-20.jpg) ;
+    background-position: center;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+/* bottom */
+
+.button11 {
+    font-size: 12px;
+    border: 2px solid;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+.button11:hover{
+    background-color: white;
+    color: black;
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1100px) {
+    .free{
+        display: block;
+        text-align: center;
+    }
+
+    .img5 .image2{
+        height: 50vh;
+        width: 100%;
+    }
+}
+/* CONTACT PAGE ENDS */
+
+
+/* ABOUT PAGE STARTS */
+/* ABOUT TOP */
+.top4{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Project/Images/our-brands-img-18.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top4 .text11{
+    height: 100%;
+    width: 100%;
+    background-color: #232323a2;
+    color: white;
+
+}
+
+.top5{
+    background-color: #f57250;
+    padding: 5px 10px;
+    margin: 0 14%;
+    font-size: 11px;
+}
+/* ABOUT TOP */
+
+/* about start */
+.start span{
+    color: #f57250;
+}
+
+.image3 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/* about start */
+
+/* ELEGANT. VINTAGE. CLASSIC */
+.elegant{
+    width: 90%;
+}
+
+.elegant span{
+    font-size: 12px;
+    color: #f57250;
+    font-weight: 500;
+}
+
+.elegant p{
+    font-size: 14px;
+    color: #788487;
+}
+
+.ipadtext2 {
+    width: 85%;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .ipadtext2 {
+        width: 100%;
+    }
+}
+
+.ipt {
+    height: 110px;
+    width: 100%;
+    font-family: Open Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .ipt {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.iptl {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+.iptl i {
+    font-size: 40px;
+    color: #f57250;
+    text-align: center;
+}
+
+.ipt:hover .iptl i {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.iptr {
+    width: 80%;
+    height: 100%;
+}
+
+.iptr h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.iptr p {
+    font-size: 14px;
+    color: #788487;
+    line-height: 24px;
+}
+/* ELEGANT. VINTAGE. CLASSIC */
+
+/* single pic */
+.back{
+    background-image: url(../Project/Images/fashion-about-classic-para-bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 40px 0;
+}
+
+.back .card{
+    margin: 10% 20%;
+    padding: 5% 8%;
+}
+
+.back span{
+    font-size: 14px;
+    color: #f57250;
+}
+
+.back p{
+    font-size: 13px;
+    color: #788487;
+}
+
+.back .button12{
+    font-size: 12px;
+    border: 2px solid;
+    padding: 10px 12px;
+    background-color: black;
+    color: white;
+}
+
+.button12:hover{
+background-color: white;
+color: black;
+}
+/* single pic */
+
+/* services */
+.service .circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid;
+    transition: all 0.5s;
+}
+
+.service:hover .circle{
+    background-color: white;
+    color: black;
+}
+
+.service h4 {
+    font-size: 15px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #788487;
+    line-height: 24px;
+}
+/* services */
+
+/* collection */
+.text13{
+    border-left: 1px solid #cbcaca;
+    margin: 5px 10px;
+    padding-left: 20px;
+}
+
+.row p{
+    color:#9e9d9d;
+    font-size: 14px;
+}
+
+.row h1{
+    color: #f57250;
+}
+/* collection */
+
+/* hongo */
+.image4{
+    height: 569px;
+    background-image: url(../Project/Images/fashion-about-classic-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image4 .card{
+    background-color: transparent;
+}
+/* hongo */
+
+/* TWO BOXES */
+
+.image5{
+   height: 376px;
+   background-image: url(../Project/Images/about-classic-img-05.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.image5 .play{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.237);
+}
+
+.image5 i{
+    font-size: 80px;
+    color: white;
+}
+
+.two span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #f57250;
+}
+
+.two p{
+    font-size: 14px;
+    color: #788487;
+}
+
+.button13{
+    font-size: 10px;
+    font-weight: 500;
+    border: 2px solid;
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+.button13:hover{
+background-color: white;
+color: black;
+}
+/* TWO BOXES */
+
+/* four boxes */
+.backg{
+    background-color: #f7f7f7;
+    padding: 100px 40px;
+}
+.image6 img{
+    height: 100%;
+    width: 100%;
+}
+
+.image6{
+    position: relative;
+}
+
+.dunlay{
+    height: 0;
+    width: 100%;
+    background-color: #f57150dd;
+    transition: all 0.2s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+}
+
+.boxes2:hover .dunlay{
+    opacity: 1;
+    height: 100%;
+}
+
+.text14{
+    font-size: 12px;
+    line-height: -5px;
+    padding: 25px 0;
+    font-weight: 500;
+}
+
+.text14 .dun{
+    color: #808080;
+}
+/* four boxes */
+
+/* logos */
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.logos img{
+    margin: 30px 40px;
+}
+
+.logos img:hover{
+    color: #808080 !important;
+}
+
+@media screen and (max-width:1100px) {
+    .logos{
+        flex-direction: column;
+    }
+}
+/* logos */
+/* ABOUT PAGE ENDS */
+
+
